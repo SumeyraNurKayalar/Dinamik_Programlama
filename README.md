@@ -1,5 +1,5 @@
 Bu fonksiyon, n adet işin m adet makine üzerinde en az toplam süreyle tamamlanmasını sağlar.
-Her işin her makinede farklı sürelerde tamamlandığı bir durumda, makineler arası geçişin de maliyeti olduğu varsayılır.
+Her işin her makinede farklı sürelerde tamamlandığı bir durumda, makineler arası geçişin de maaliyeti olduğu varsayılır.
 Amaç, işleri bir sırayla işleyerek toplam süreyi minimize etmektir.
 def min_total_time(n, m, time, cost): iççin n toplam iş, m makine sayısını, time ile istenen durumdaki tamamlanma süresi ve cost ile istenilen durumdaki geçiş maaliyeti alınır.
 dp = [[float('inf')] * m for _ in range(n)] ile dinamik programlama tablosu oluşturulur.
